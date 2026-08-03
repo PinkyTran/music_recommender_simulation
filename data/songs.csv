@@ -1,28 +1,51 @@
 id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
-11,Concrete Kings,Blocktape,hip hop,aggressive,0.78,95,0.44,0.83,0.08
-12,Moonlight Adagio,Elena Faust,classical,melancholy,0.22,66,0.30,0.18,0.95
-13,Pulse Reactor,Volt District,edm,energetic,0.95,128,0.73,0.91,0.03
-14,Iron Verdict,Ashfall,metal,dark,0.97,160,0.24,0.44,0.02
-15,Island Time,Sunny Roots,reggae,groovy,0.55,92,0.82,0.76,0.34
-16,Dust Road Home,Carter Vale,country,nostalgic,0.49,100,0.61,0.54,0.68
-17,Velvet Hours,Mara Lune,r&b,romantic,0.47,88,0.67,0.71,0.29
-18,Paper Boats,Wren and Oak,folk,dreamy,0.33,76,0.57,0.41,0.88
-19,Backbeat Fever,The Groove Union,funk,uplifting,0.72,112,0.86,0.89,0.19
-20,Neon Circuit,Kilo Frequency,techno,hypnotic,0.88,138,0.54,0.87,0.04
-21,Bourbon Street Blues,Ella Cinders,blues,wistful,0.44,84,0.39,0.52,0.72
-22,Rise Up Choir,Golden Voices,gospel,triumphant,0.71,108,0.89,0.64,0.41
-23,Mirrorball Nights,Studio 45,disco,euphoric,0.83,120,0.91,0.93,0.12
-24,Broken Glass Anthem,Riot Static,punk,defiant,0.94,168,0.42,0.55,0.05
-25,Slow Sunday Soul,Marvin Keys,soul,sultry,0.40,72,0.66,0.61,0.45
-26,Copacabana Breeze,Rio Nova,bossa nova,peaceful,0.36,96,0.75,0.68,0.80
-27,Seoul Skyline,LUNA8,k-pop,playful,0.86,126,0.84,0.90,0.15
+1,Blinding Lights,The Weeknd,pop,energetic,0.73,171,0.33,0.51,0.00
+2,Shake It Off,Taylor Swift,pop,happy,0.80,160,0.94,0.65,0.06
+3,Levitating,Dua Lipa,pop,playful,0.83,103,0.92,0.70,0.01
+4,Rolling in the Deep,Adele,pop,intense,0.77,105,0.51,0.73,0.14
+5,Bohemian Rhapsody,Queen,rock,dramatic,0.40,72,0.23,0.39,0.29
+6,Smells Like Teen Spirit,Nirvana,rock,aggressive,0.91,117,0.72,0.50,0.00
+7,Back in Black,AC/DC,rock,energetic,0.70,94,0.76,0.53,0.01
+8,Mr. Brightside,The Killers,rock,anthemic,0.92,148,0.23,0.35,0.00
+9,HUMBLE.,Kendrick Lamar,hip hop,confident,0.62,150,0.42,0.90,0.00
+10,In Da Club,50 Cent,hip hop,confident,0.72,90,0.63,0.90,0.01
+11,Sicko Mode,Travis Scott,hip hop,dark,0.73,155,0.45,0.83,0.00
+12,Wake Me Up,Avicii,edm,uplifting,0.78,124,0.64,0.53,0.00
+13,Titanium,David Guetta ft. Sia,edm,triumphant,0.79,126,0.29,0.60,0.05
+14,Levels,Avicii,edm,euphoric,0.89,126,0.56,0.58,0.03
+15,Take Five,The Dave Brubeck Quartet,jazz,cool,0.35,174,0.60,0.55,0.55
+16,So What,Miles Davis,jazz,relaxed,0.25,138,0.40,0.50,0.60
+17,Feeling Good,Nina Simone,jazz,triumphant,0.30,133,0.35,0.30,0.55
+18,No Scrubs,TLC,r&b,sassy,0.61,93,0.66,0.79,0.20
+19,Adorn,Miguel,r&b,romantic,0.55,109,0.50,0.65,0.10
+20,Say My Name,Destiny's Child,r&b,moody,0.55,138,0.53,0.74,0.15
+21,Enter Sandman,Metallica,metal,dark,0.84,123,0.32,0.44,0.00
+22,Chop Suey!,System of a Down,metal,aggressive,0.95,127,0.44,0.40,0.00
+23,Clair de Lune,Claude Debussy,classical,peaceful,0.05,66,0.15,0.20,0.98
+24,Fur Elise,Ludwig van Beethoven,classical,wistful,0.10,60,0.20,0.25,0.97
+25,Electric Feel,MGMT,indie pop,groovy,0.70,103,0.53,0.79,0.02
+26,1901,Phoenix,indie pop,upbeat,0.85,141,0.60,0.55,0.00
+27,The Sound of Silence,Simon & Garfunkel,folk,melancholy,0.25,105,0.28,0.42,0.80
+28,Blowin' in the Wind,Bob Dylan,folk,reflective,0.20,130,0.40,0.55,0.85
+29,Jolene,Dolly Parton,country,wistful,0.55,110,0.50,0.60,0.40
+30,"Take Me Home, Country Roads",John Denver,country,nostalgic,0.55,82,0.72,0.55,0.55
+31,Respect,Aretha Franklin,soul,empowered,0.72,115,0.85,0.80,0.30
+32,Ain't No Sunshine,Bill Withers,soul,melancholy,0.40,78,0.30,0.55,0.40
+33,Superstition,Stevie Wonder,funk,groovy,0.70,100,0.75,0.82,0.05
+34,Get Up (I Feel Like Being a) Sex Machine,James Brown,funk,energetic,0.75,108,0.80,0.85,0.10
+35,Around the World,Daft Punk,techno,hypnotic,0.82,121,0.55,0.85,0.00
+36,Strings of Life,Derrick May,techno,euphoric,0.75,122,0.60,0.80,0.02
+37,Nightcall,Kavinsky,synthwave,moody,0.68,87,0.30,0.65,0.02
+38,Sunset,The Midnight,synthwave,nostalgic,0.70,118,0.55,0.60,0.03
+39,Dynamite,BTS,k-pop,happy,0.77,114,0.74,0.75,0.01
+40,How You Like That,BLACKPINK,k-pop,fierce,0.80,130,0.45,0.80,0.01
+41,Three Little Birds,Bob Marley & The Wailers,reggae,uplifting,0.55,76,0.90,0.72,0.30
+42,Blitzkrieg Bop,Ramones,punk,defiant,0.90,177,0.80,0.45,0.00
+43,Oh Happy Day,Edwin Hawkins Singers,gospel,triumphant,0.55,110,0.75,0.55,0.35
+44,Stayin' Alive,Bee Gees,disco,groovy,0.75,104,0.68,0.83,0.10
+45,The Girl from Ipanema,Stan Getz & Joao Gilberto,bossa nova,peaceful,0.30,130,0.62,0.60,0.70
+46,The Thrill Is Gone,B.B. King,blues,wistful,0.45,96,0.35,0.55,0.30
+47,Weightless,Marconi Union,ambient,calm,0.05,60,0.10,0.20,0.90
+48,Feather,Nujabes,lofi,chill,0.45,90,0.55,0.65,0.40
+49,Luv(sic) Part 3,Nujabes,lofi,dreamy,0.35,84,0.50,0.55,0.55
+50,Aruarian Dance,Nujabes,lofi,wistful,0.35,84,0.45,0.55,0.55
