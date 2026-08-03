@@ -19,15 +19,7 @@ Replace this paragraph with your own summary of what your version does.
 
 Explain your design in plain language.
 
-Some prompts to answer:
-
-- What features does each `Song` use in your system
-  - For example: genre, mood, energy, tempo
-- What information does your `UserProfile` store
-- How does your `Recommender` compute a score for each song
-- How do you choose which songs to recommend
-
-You can include a simple diagram or bullet list if helpful.
+My recommender works like a helpful friend who knows your taste and picks songs by matching, not guessing. First, I write down what you like, such as your favorite genre,your favorite mood, how energetic you want the music, and whether you prefer acoustic sounds. Then I go through every song and give it points for how well it fits. A song gets 2 points for matching your genre, up to 1.5 points for being close to your energy level, 1 point for matching your mood, and a small half point bonus if you like acoustic music and the song is acoustic too. So genre counts the most, then energy, then mood, then the acoustic bonus. I add up the points, jot down a plain reason for each one, sort the songs from best to worst, and hand you the top few with their reasons. One thing to watch out for is that genre is worth the most, so the system can focus too much on genre and miss a great mood match in a different genre. It also only counts exact matches, so "pop" gets no credit from "indie pop," which means songs that are close but not exact can get skipped unfairly.
 
 ---
 
@@ -68,16 +60,39 @@ You can add more tests in `tests/test_recommender.py`.
 
 ## Sample Recommendation Output
 
-Paste a sample of your recommender's output here as a text block so a reader can see what it produces:
+Sample output from `python -m src.main` using the default **pop / happy / energy=0.8** profile:
 
 ```
-# e.g.:
-# User profile: genre=indie, mood=chill, energy=low
-# Recommendations:
-#   1. ...
-#   2. ...
-#   3. ...
+Loaded songs: 27
+
+User profile: genre=pop, mood=happy, energy=0.8
+
+Top recommendations:
+
+  1. Sunrise City — Neon Echo
+     Score: 5.46
+     Reasons: genre match (+2.0), mood match (+1.5), energy fit (+1.96)
+
+  2. Gym Hero — Max Pulse
+     Score: 3.74
+     Reasons: genre match (+2.0), energy fit (+1.74)
+
+  3. Rooftop Lights — Indigo Parade
+     Score: 3.42
+     Reasons: mood match (+1.5), energy fit (+1.92)
+
+  4. Concrete Kings — Blocktape
+     Score: 1.96
+     Reasons: energy fit (+1.96)
+
+  5. Mirrorball Nights — Studio 45
+     Score: 1.94
+     Reasons: energy fit (+1.94)
 ```
+
+The top pick, **Sunrise City**, is the only song that matches all three signals
+(pop genre, happy mood, and energy ≈ 0.82 close to the target 0.8), so it scores
+highest. Songs matching fewer signals rank lower.
 
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or demo video link here -->
 
